@@ -1,0 +1,91 @@
+body
+ {
+    font-size: 15px;
+    text-align: center;
+    margin: 5rem;
+    background-color: hsl(0, 0%, 98%);
+ }
+
+a
+{
+   color: hsl(228, 45%, 44%);
+}
+p
+{
+  line-height: 2;
+}
+
+/* Common text styles */
+.card-text, .title-1, p
+{
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+.title-2
+{
+  font-weight: 600;
+  color : hsl(234, 12%, 34%);
+}
+.card-title
+{
+  font-weight: 400;
+  color:  hsl(234, 12%, 34%);;
+
+}
+/* Card Styles */
+.card
+{
+text-align: left;
+margin: 2rem 0.7rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-body
+{
+  padding: 2rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 375px) {
+
+  .lr
+  {
+    margin-top: 10rem;
+  }
+}
+
+/* Card Border Colors */
+.border-col-1
+{
+  border-radius: 4%;
+  border-top-width: 5px;
+  border-top-color: hsl(180, 62%, 55%);
+}
+
+.border-col-2
+{
+  border-radius: 4%;
+  border-top-width: 5px;
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.border-col-3
+{
+  border-radius: 4%;
+  border-top-width: 5px;
+  border-top-color:  hsl(34, 97%, 64%);
+}
+
+.border-col-4
+{
+  border-radius: 4%;
+  border-top-width: 5px;
+  border-top-color: hsl(212, 86%, 64%);
+}
+
+/* Card Images */
+.img-icon
+{
+  position: relative;
+  left: 80%;
+}
